@@ -39,3 +39,11 @@ docker images
 docker run dea/lsalpine
 
 docker run dea/lsalpine ls
+
+
+docker-machine ip
+docker run dea/lsalpine ifconfig
+
+docker run dea/lsalpine ping localhost
+docker run dea/lsalpine ping <docker-machine ip>
+
