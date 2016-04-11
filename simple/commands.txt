@@ -1,0 +1,27 @@
+## list all imagers
+docker images
+
+## pull minimal image
+docker pull alpine
+
+## show running containers
+docker ps
+
+## simple command
+docker run alpine /bin/sh
+
+## show also stopped containers
+docker ps -a
+
+docker run alpine echo "test"
+docker run alpine ls -lart
+
+## TODO load docker file of Alpine
+
+docker pull jeanblanchard/busybox-java:8
+
+docker run jeanblanchard/busybox-java:8 java -version
+
+docker run -ti jeanblanchard/busybox-java:8 
+
+## TODO load docker file of jeanblanchard
