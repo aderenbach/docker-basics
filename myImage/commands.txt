@@ -1,0 +1,2 @@
+##buidl image
+docker build .
