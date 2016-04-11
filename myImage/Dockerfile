@@ -1,3 +1,2 @@
 FROM alpine
-ADD HELLO_WORLD.txt /
-CMD ls -lart
+ENV FOO HELLO_WORLD

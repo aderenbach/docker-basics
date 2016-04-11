@@ -6,3 +6,6 @@ docker build -t dea/lsalpine .
 docker run dea/lsalpine
 
 docker run dea/lsalpine cat HELLO_WORLD.txt
+
+
+docker run -ti dea/lsalpine /bin/sh 
