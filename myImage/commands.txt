@@ -1,2 +1,6 @@
 ##buidl image
 docker build .
+
+docker build -t dea/lsalpine .
+
+docker run dea/lsalpine
