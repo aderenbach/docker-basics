@@ -25,3 +25,17 @@ docker run jeanblanchard/busybox-java:8 java -version
 docker run -ti jeanblanchard/busybox-java:8 
 
 ## TODO load docker file of jeanblanchard
+
+
+## Create a first image
+
+## start container with name and command
+docker run --name lsAlpine alpine ls -lart 
+
+docker commit lsAlpine dea/lsalpine
+
+docker images
+
+docker run dea/lsalpine
+
+docker run dea/lsalpine ls
