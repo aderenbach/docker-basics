@@ -1,2 +1,2 @@
 FROM alpine
-ENV FOO HELLO_WORLD
+CMD ping localhost

@@ -9,3 +9,16 @@ docker run dea/lsalpine cat HELLO_WORLD.txt
 
 
 docker run -ti dea/lsalpine /bin/sh 
+
+
+docker run --rm dea/lsalpine 
+
+docker run -d dea/lsalpine 
+
+docker logs <id>
+
+docker exec -ti <id> /bin/sh
+
+docker run -d --name myping dea/lsalpine 
+
+docker run -ti --name myping2 --link myping:myping dea/lsalpine /bin/sh
