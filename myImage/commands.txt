@@ -4,3 +4,5 @@ docker build .
 docker build -t dea/lsalpine .
 
 docker run dea/lsalpine
+
+docker run dea/lsalpine cat HELLO_WORLD.txt

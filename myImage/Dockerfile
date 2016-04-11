@@ -1,3 +1,3 @@
 FROM alpine
-RUN touch ZUEKLKE.txt
+ADD HELLO_WORLD.txt /
 CMD ls -lart
